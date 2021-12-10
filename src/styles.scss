@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url('../node_modules/font-awesome/css/font-awesome.css');
+
+@import url(./app/shared/components/home/animate.scss);
+@import url(./app/shared/components/home/home.scss);
+
+.text-brand1-color, .text-brand2-color{
+    color: #b5acac;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-brand2-color{
+    color: #ededed;
+}
+
+.text-socialmedia-color{
+    color: var(--bs-info) !important
+}
+
+
+.text-lightgray{
+    color: #8b8686 !important;
+}
+
+.text-email-color{
+    color: #4e94a3;
+}
+
+.m-l-3{
+    margin-left: 3px;
+}
