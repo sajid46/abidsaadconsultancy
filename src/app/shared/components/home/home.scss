@@ -374,6 +374,27 @@ body {
     opacity: 0;
   }
   
+
+@media (max-width: 580px) {
+  .overcover1 {
+    height: 200px !important;
+  }
+  
+  .div-banner img, .banner-text{
+    height: 200px !important;
+    display: block !important;
+  }
+
+  .banner-text h2{
+    font-size: 12px;
+  }
+
+  .banner-text{
+    top: 40px;
+    font-size: 10px;
+  }
+}
+
   @media (max-width: 786px) {
     .login {
       font-size: 14px;

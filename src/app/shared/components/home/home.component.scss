@@ -1,3 +1,5 @@
+@import '../../../../variables.scss';
+
 .overcover1,
 .overcover2 {
   position: absolute;
@@ -10,6 +12,10 @@
 
 .overcover2 {
   height: 50px;
+}
+
+.div-banner img{
+  height: $bannerHeight1;
 }
 
 .contact-us i {
