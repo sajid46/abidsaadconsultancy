@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'abidsaadconsutancy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D8CC6C7F768C4BAD814178BAB465CE68 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F780296C8026413DAA47B2BBB1DF48D1 }}
           package: .
