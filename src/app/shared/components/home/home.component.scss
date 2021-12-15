@@ -1,0 +1,39 @@
+@import '../../../../variables.scss';
+
+.overcover1,
+.overcover2 {
+  position: absolute;
+  background: #2c2822a8;
+  margin-top: 0px;
+  z-index: 1;
+  height: 650px;
+  width: 100%;
+}
+
+.overcover2 {
+  height: 50px;
+}
+
+.div-banner img{
+  height: $bannerHeight1;
+}
+
+.contact-us i {
+  color: #9f7a0e !important;
+  font-size: 20px !important;
+  text-shadow: -1px -1px 0px var(--bs-yellow);
+  margin-right: 5px !important;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.show-scrollTop {
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
