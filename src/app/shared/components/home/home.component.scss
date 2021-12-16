@@ -1,4 +1,4 @@
-@import '../../../../variables.scss';
+@import "../../../../variables.scss";
 
 .overcover1,
 .overcover2 {
@@ -14,7 +14,7 @@
   height: 50px;
 }
 
-.div-banner img{
+.div-banner img {
   height: $bannerHeight1;
 }
 
@@ -36,4 +36,33 @@
 .show-scrollTop {
   opacity: 1;
   transition: all 0.2s ease-in-out;
+}
+
+.features-div {
+  img {
+    height: 150px;
+    width: 181px;
+  }
+
+  b{
+    font-size: 24px;
+  }
+
+  font-size: 17px;
+}
+
+.css-panel-heading {
+  color: #41464b;
+  letter-spacing: 4px;
+  font-size: 39px;
+  text-transform: capitalize !important;
+}
+
+.div-undelined {
+  background: #f47d23;
+  height: 3px;
+  width: 8%;
+  margin: auto;
+  margin-top: 7px;
+  margin-bottom: 38px;
 }
