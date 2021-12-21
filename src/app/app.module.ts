@@ -8,12 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './shared/components/home/home.component';
 import { NavComponent } from './shared/components/nav/nav.component';
+import { MyservicesComponent } from './shared/common/myservices.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavComponent
+    NavComponent,
+    MyservicesComponent
   ],
   imports: [
     BrowserModule,

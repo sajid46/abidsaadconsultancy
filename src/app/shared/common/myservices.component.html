@@ -1,0 +1,18 @@
+<div
+class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animate-box row m-4 features-div"
+data-animate-effect="fadeIn"
+>
+<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+  <img src={{srcImage}} alt="" />
+</div>
+
+<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pt-2">
+  <b>{{heading}}</b>
+  <div class="features">
+    {{description}}
+    <div *ngIf="aLink != null || aLink != ''">
+        <a href="{{aLink}}" _target="blank">Read More...</a>
+    </div>
+  </div>
+</div>
+</div>

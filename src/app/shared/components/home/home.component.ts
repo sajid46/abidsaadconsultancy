@@ -1,15 +1,29 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, OnInit, Inject, HostListener } from '@angular/core';
+import { ImyServices } from '../../interfaces/myservices.interface';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements OnInit {
+
+export class HomeComponent implements OnInit, ImyServices {
   windowScrolled: boolean = false;
+  srcImageTaxes: string = '';
+  headingTaxes: string = '';
+  descriptionTaxes: string = '';
+  
+  serviceData!: ImyServices;
+  serviceDatas!: Array<ImyServices>;
+  aLinkTaxes!: string;
 
   constructor(@Inject(DOCUMENT) private document: Document) {}
+  
+  srcImage: string='';
+  heading: string='';
+  description: string='';
+  aLink: string='';
 
   onWindowScroll() {
     if (
@@ -37,5 +51,14 @@ export class HomeComponent implements OnInit {
     })();
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    //this.serviceDatas=new Array<ImyServices>(); 
+        
+    // this.serviceData.srcImage = '../../../../assets/img/auditing.png';    
+    // this.serviceData.heading = 'Auditing Service';    
+    // this.serviceData.description = 'The Auditor General of Pakistan (AGP) has deemed it essential to establish a Code of Ethics for auditors in the public sector. ';
+    // this.serviceData.aLink = 'https://agp.gov.pk/SiteImage/Misc/files/Code%20Of%20Ethics%20and%20Auditing%20Standards.pdf';
+    
+    // this.serviceDatas.push(this.serviceData);
+  }
 }
