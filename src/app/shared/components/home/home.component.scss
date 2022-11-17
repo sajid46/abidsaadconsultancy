@@ -66,3 +66,36 @@
   margin-top: 7px;
   margin-bottom: 38px;
 }
+
+.navbar-collapse{
+  ul 
+  {
+    li{
+      a{
+        font-family: inherit;
+        font-weight: lighter;
+       padding: 2px 13px;
+        height: 27px;
+        margin: 8px 3px;
+        font-size: 15px;
+        color: #422f2f !important;
+        background-color: #f1efef;
+        box-shadow: inset -1px -14px 10px #22151526;
+        border-radius: 16px;
+        border: 1px solid #edd8d8;
+      }
+
+      :hover{
+        color: rgb(54, 153, 87) !important;
+        text-shadow: 0px 1px 0px white;
+      }
+
+      .active{
+        color: #ffffff !important;
+        background-color: #24b540;
+        text-shadow: none;
+        }
+
+    }
+  }
+}
