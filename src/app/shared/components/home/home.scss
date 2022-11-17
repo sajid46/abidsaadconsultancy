@@ -40,9 +40,25 @@ body {
   }
   
   .navbar-brand {
-    color: #24b540 !important;
     font-weight: bold;
     font-size: 25px !important;
+    color: #313f46;
+    text-shadow: 0px 1px 0px #809faf;
+    margin: 3px -100px;
+  }
+
+  @media (max-width: 786px)
+  {
+    .navbar-brand {
+    padding-left: 102px !important;
+   }
+  }
+
+  @media (max-width: 1600px)
+  {
+    .navbar-brand {
+    padding-left: 102px !important;
+   }
   }
   
   .navbar-brand2 {
