@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/86521576-cb7c-41b4-812b-f3774046645d/resourceGroups/rgSajid/providers/Microsoft.Web/sites/abidsaadconsutancy",
-    "appService.deploySubpath": "."
-}
